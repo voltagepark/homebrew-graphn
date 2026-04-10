@@ -1,26 +1,26 @@
 class Graphn < Formula
   desc "GraphN CLI"
   homepage "https://graphn.ai"
-  version "v1.0.8"
+  version "v1.0.9"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/voltagepark/graphn-cli/releases/download/v1.0.8/graphn-darwin-arm64"
-      sha256 "c11d3d2c8e5b7ca38d06fb53bda40513f564d7045ef42c5c3b4cdd9d7fbd2ab0"
+      url "https://github.com/voltagepark/graphn-cli/releases/download/v1.0.9/graphn-darwin-arm64"
+      sha256 "20f09b377d133461cdbcc9b94b35903a7ad3a149b71ff709e340eb123c13944c"
     else
-      url "https://github.com/voltagepark/graphn-cli/releases/download/v1.0.8/graphn-darwin-amd64"
-      sha256 "7ae45b4aa72950f552e782e1ab3a23d8c8cd1f03e8bd3b7b73b4b6ebe320a458"
+      url "https://github.com/voltagepark/graphn-cli/releases/download/v1.0.9/graphn-darwin-amd64"
+      sha256 "c99e58eedea26e950290453218b9b240b0b3820befc7cfb9ddfb30e89e08f73c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/voltagepark/graphn-cli/releases/download/v1.0.8/graphn-linux-arm64"
-      sha256 "f20ff50f1fb8a0f3292b95b8b070764fdf32e7dcb150ef3fe101c12fee7d00ee"
+      url "https://github.com/voltagepark/graphn-cli/releases/download/v1.0.9/graphn-linux-arm64"
+      sha256 "206ae02e5845cb2b6b7a9d66c968b029b4738ed201a685461a5ca12a850adbbd"
     else
-      url "https://github.com/voltagepark/graphn-cli/releases/download/v1.0.8/graphn-linux-amd64"
-      sha256 "cbebd2479bd09ebe94ad87c9377a3bebcc8c89254e838e773056fe948d728d00"
+      url "https://github.com/voltagepark/graphn-cli/releases/download/v1.0.9/graphn-linux-amd64"
+      sha256 "5f9e1551ea3682c37759a32608479d990cca83dc52e2dfa6f440fe167145101d"
     end
   end
 
